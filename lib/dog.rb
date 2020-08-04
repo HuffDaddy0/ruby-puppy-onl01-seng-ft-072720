@@ -12,14 +12,14 @@ class Dog
   end
 
   def self.print_all
-    @all.each {|dog| puts "#{dog}"}
+    @@all.each {|dog| puts "#{dog}"}
   end
 
   def save
-    @all.push(self)
+    @@all.push(self)
   end
 
   def clear_all
-    @all = []
+    @@all = []
   end
 end
