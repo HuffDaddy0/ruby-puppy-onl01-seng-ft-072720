@@ -28,5 +28,5 @@ end
 Dog.new("Fido")
 Dog.new("rover")
 Dog.new("Bailey")
-binding.pry
+#binding.pry
 Dog.all
