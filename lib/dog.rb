@@ -20,7 +20,7 @@ class Dog
     @@all.push(self)
   end
 
-  def clear_all
+  def self.clear_all
     @@all = []
   end
 end
