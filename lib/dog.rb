@@ -3,7 +3,7 @@ class Dog
   @@all = []
 
   def initializes
-    @@all.push(self)
+    self.save
   end
 
   def self.all
@@ -16,3 +16,4 @@ class Dog
 
   def save
     @all.push(self)
+  end
