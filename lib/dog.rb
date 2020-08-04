@@ -1,3 +1,4 @@
+require 'pry'
 # Add your code here
 class Dog
   attr_accessor :name
@@ -27,5 +28,5 @@ end
 dog.new("Fido")
 dog.new("rover")
 dog.new("Bailey")
-
+binding.pry
 Dog.all
