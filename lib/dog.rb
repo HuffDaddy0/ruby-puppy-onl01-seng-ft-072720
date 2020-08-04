@@ -24,3 +24,8 @@ class Dog
     @@all = []
   end
 end
+dog.new("Fido")
+dog.new("rover")
+dog.new("Bailey")
+
+Dog.all
