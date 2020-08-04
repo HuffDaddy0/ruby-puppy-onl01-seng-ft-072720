@@ -25,8 +25,8 @@ class Dog
     @@all = []
   end
 end
-dog.new("Fido")
-dog.new("rover")
-dog.new("Bailey")
+Dog.new("Fido")
+Dog.new("rover")
+Dog.new("Bailey")
 binding.pry
 Dog.all
